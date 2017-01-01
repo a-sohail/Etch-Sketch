@@ -1,0 +1,33 @@
+#container{
+	clear: both;
+	margin: 5px auto;
+	width: 40%;
+
+
+}
+#container:after { 
+    content: " "; 
+    display: block;
+    clear: both;
+} 
+
+#button{
+	margin: 5% 0 0 30%;
+	float: left;
+}
+
+ .input{
+ 	margin: 5% 0 0 0;
+	vertical-align: middle;
+	text-align: left;
+	white-space: normal;
+	padding: 0;
+	clear: both;
+}
+
+
+.grid{
+	border: 1px solid black;
+
+	float: left;
+}
