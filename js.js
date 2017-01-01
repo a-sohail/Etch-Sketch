@@ -10,6 +10,7 @@ $(document).ready(function(){
 	generate(64);
 	
 	var colour = $(".input").val();
+	$(this).css("background", colour);
 	$(".grid").mouseenter(function(){
 			$(this).css("background", colour);
 		});
