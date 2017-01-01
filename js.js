@@ -10,6 +10,9 @@ $(document).ready(function(){
 	generate(64);
 	
 	var colour = $(".input").val();
+	$(".grid").mouseenter(function(){
+			$(this).css("background", colour);
+		});
 	$(".clear").on("click", function(){
 		$(".grid").remove();
 		var amount = prompt("Enter the new grid size");
